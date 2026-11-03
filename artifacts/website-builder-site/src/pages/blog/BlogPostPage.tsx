@@ -107,6 +107,7 @@ export default function BlogPostPage() {
         }
   );
 
+  // Inject Article JSON-LD
   useEffect(() => {
     document.getElementById(ARTICLE_LD_ID)?.remove();
     document.getElementById(FAQ_LD_ID)?.remove();
@@ -178,6 +179,7 @@ export default function BlogPostPage() {
     <div className="flex flex-col min-h-screen">
       <Header />
       <main>
+        {/* Article header */}
         <div className="bg-slate-50 border-b border-slate-200 py-12">
           <div className="container mx-auto px-4 md:px-6 max-w-3xl">
             <a
@@ -228,12 +230,14 @@ export default function BlogPostPage() {
           </div>
         </div>
 
+        {/* Article body */}
         <article className="py-14 bg-white">
           <div className="container mx-auto px-4 md:px-6 max-w-3xl">
             {post.blocks.map((block, i) => renderBlock(block, i))}
           </div>
         </article>
 
+        {/* CTA */}
         <section className="py-14 bg-primary text-white">
           <div className="container mx-auto px-4 md:px-6 max-w-3xl text-center">
             <h2 className="text-2xl md:text-3xl font-heading font-extrabold mb-3 leading-tight">
@@ -252,6 +256,7 @@ export default function BlogPostPage() {
           </div>
         </section>
 
+        {/* Related posts */}
         {related.length > 0 && (
           <section className="py-16 bg-slate-50 border-t border-slate-200">
             <div className="container mx-auto px-4 md:px-6 max-w-5xl">

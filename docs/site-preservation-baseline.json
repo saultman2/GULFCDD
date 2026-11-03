@@ -1063,11 +1063,11 @@
     },
     {
       "path": "artifacts/website-builder-site/src/pages/blog/BlogPostPage.tsx",
-      "sha256": "6217b95ea6cba6d0f8e991a4a7c2503147976e88c535ac66f71b153ab1759b38"
+      "sha256": "b4ee5a9bbdd8b39472ad96282e7a097240208d770526059f9438eb7b5d6c869c"
     },
     {
       "path": "artifacts/website-builder-site/src/pages/blog/SoroBlogPage.tsx",
-      "sha256": "1d34e37f23b9a0817175330706092a737aa07ddc801dd4170a953785d8b7924c"
+      "sha256": "4ddfd01f203ef65eec6c08366c730d6b5e87cfc37659e1e7bd0b1dbd19e446d9"
     },
     {
       "path": "artifacts/website-builder-site/src/pages/not-found.tsx",
@@ -1183,11 +1183,11 @@
     },
     {
       "path": "artifacts/website-builder-site/scripts/check-sitemap-regression.mjs",
-      "sha256": "7d6b5594ef8a6e1bf15297381bd74d4910a25fd6b0976eb7247a209b7ff41504"
+      "sha256": "8787d5ba905fbf9b00cf54acf5233007a2468271ab88e61dfb38d175cb1f87cc"
     },
     {
       "path": "artifacts/website-builder-site/scripts/check-sitemap.mjs",
-      "sha256": "8e25a08c76c8fcc8a2d00d75ea69a3b5d0b4abf85a6c08551f1da4852868ff60"
+      "sha256": "6cd053f196d4ceb0a91fc43452dea17c5690ec353f6ef9740e1f9baf2eaf9cf6"
     },
     {
       "path": "artifacts/website-builder-site/scripts/prerender.mjs",
@@ -1403,7 +1403,7 @@
     },
     {
       "path": "artifacts/website-builder-site/public/sitemap.xml",
-      "sha256": "507b3479505f4b6cebaf3ca26563740ca136a54bfaaf39765ff55ed34e2ea54c"
+      "sha256": "a49093887f49f3cafe35a6d652da461b84e000427c34e61dc7e666d4be38ffff"
     },
     {
       "path": "artifacts/website-builder-site/public/templates/editorial.jpg",
