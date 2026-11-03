@@ -1,0 +1,32 @@
+# Explicitly allow Google's AI/search crawlers to access public pages.
+# The broad rule below still governs all other crawlers.
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot-Extended
+Allow: /
+
+User-agent: *
+
+# Private / authenticated areas — do not crawl
+Disallow: /account
+Disallow: /sign-in
+Disallow: /sign-up
+Disallow: /checkout
+
+# Backend API — not for crawlers
+Disallow: /api/
+
+# Orphan / utility pages — not for indexing
+Disallow: /design-ideas
+
+# Block common query-string parameter patterns that create duplicate pages
+Disallow: /*?mode=
+Disallow: /*?session_id=
+Disallow: /*?plan=
+Disallow: /*?redirect_url=
+
+# Everything else is public
+Allow: /
+
+Sitemap: https://www.gulfcdd.com/sitemap.xml

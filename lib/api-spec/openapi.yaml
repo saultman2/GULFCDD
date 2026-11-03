@@ -1,0 +1,196 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: API specification
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+paths:
+  /campaign/config:
+    get:
+      operationId: getCampaignConfig
+      responses:
+        "200":
+          description: Public campaign content
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CampaignDocument"
+  /campaign/applications:
+    post:
+      operationId: submitCampaignApplication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CampaignApplicationInput"
+      responses:
+        "201":
+          description: Application received, never a purchase
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CampaignDocument"
+  /campaign/events:
+    post:
+      operationId: recordCampaignEvent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CampaignEventInput"
+      responses:
+        "200":
+          description: Consented event recorded
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CampaignDocument"
+  /campaign/admin:
+    get:
+      operationId: getCampaignAdmin
+      responses:
+        "200":
+          description: Admin-only applications, settings and analytics
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CampaignDocument"
+    patch:
+      operationId: updateCampaignAdmin
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CampaignAdminInput"
+      responses:
+        "200":
+          description: Authorized action completed
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CampaignDocument"
+  /campaign/onboarding/{token}:
+    get:
+      operationId: getCampaignOnboarding
+      parameters:
+        - name: token
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Time-limited private agreement
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CampaignDocument"
+    post:
+      operationId: acceptCampaignOnboarding
+      parameters:
+        - name: token
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CampaignAgreementInput"
+      responses:
+        "200":
+          description: Agreement accepted or hosted checkout created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CampaignDocument"
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+components:
+  schemas:
+    CampaignDocument:
+      type: object
+      additionalProperties: true
+    CampaignApplicationInput:
+      type: object
+      required: [businessName, businessType, cityState, websiteStatus, goals, plan, fullName, email, phone, contactMethod, privacyConsent, idempotencyKey]
+      properties:
+        businessName: { type: string, minLength: 1, maxLength: 160 }
+        businessType: { type: string, minLength: 1, maxLength: 160 }
+        cityState: { type: string, minLength: 1, maxLength: 160 }
+        websiteStatus: { type: string, enum: [first, redesign, starting] }
+        websiteUrl: { type: string, maxLength: 500 }
+        goals: { type: array, minItems: 1, maxItems: 8, items: { type: string, maxLength: 160 } }
+        plan: { type: string, enum: [essential, growth, full, unsure] }
+        fullName: { type: string, minLength: 1, maxLength: 160 }
+        email: { type: string, format: email, maxLength: 254 }
+        phone: { type: string, minLength: 7, maxLength: 40 }
+        contactMethod: { type: string, enum: [email, text, call] }
+        privacyConsent: { type: boolean }
+        marketingConsent: { type: boolean, default: false }
+        smsConsent: { type: boolean, default: false }
+        company_website: { type: string, maxLength: 500 }
+        mathAnswer: { type: string }
+        idempotencyKey: { type: string, minLength: 16, maxLength: 80 }
+        attribution:
+          type: object
+          additionalProperties: { type: string, maxLength: 200 }
+    CampaignEventInput:
+      type: object
+      required: [name, sessionId, eventKey, consent]
+      properties:
+        name: { type: string, enum: [landing_view, application_started, step_completed] }
+        sessionId: { type: string, minLength: 16, maxLength: 80 }
+        eventKey: { type: string, minLength: 16, maxLength: 160 }
+        consent: { type: boolean }
+        step: { type: integer, minimum: 1, maximum: 6 }
+        attribution:
+          type: object
+          additionalProperties: { type: string, maxLength: 200 }
+    CampaignAdminInput:
+      type: object
+      required: [action]
+      properties:
+        action: { type: string, enum: [update, approve, followup, settings, refresh_payment] }
+        id: { type: integer }
+        values:
+          type: object
+          additionalProperties: true
+    CampaignAgreementInput:
+      type: object
+      required: [action]
+      properties:
+        action: { type: string, enum: [accept, checkout, verify_payment] }
+        accepted: { type: boolean }
+        signature: { type: string, maxLength: 160 }
+        sessionId: { type: string, maxLength: 200 }
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+

@@ -1,0 +1,39 @@
+{
+  "name": "Gulf Coast Digital Designs",
+  "short_name": "GulfCDD",
+  "description": "Professional web design and digital marketing for small businesses on the Mississippi Gulf Coast.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#172338",
+  "background_color": "#172338",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/images/gulfcdd-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/gulfcdd-logo-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/gulfcdd-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "screenshots": [
+    {
+      "src": "/opengraph.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg"
+    }
+  ]
+}
