@@ -59,6 +59,35 @@ async function send(req, res, value, type, status = 200, cache = "no-cache") {
   res.end(req.method === "HEAD" ? undefined : body);
 }
 
+/** Host header without a port, so `gulfcdd.com:443` still canonicalizes to www. */
+export function canonicalHostname(headerValue) {
+  return String(headerValue ?? "").split(",")[0].trim().toLowerCase().replace(/:\d+$/, "");
+}
+
+export function wwwRedirectTarget(hostHeader, pathname, search) {
+  if (canonicalHostname(hostHeader) !== "gulfcdd.com") return null;
+  return `https://www.gulfcdd.com${pathname}${search}`;
+}
+
+/** Append blog URLs when the feed is available. A feed failure returns the static sitemap unchanged. */
+export async function enrichSitemap(staticXml, loadArticles = getSoro) {
+  try {
+    const { articles } = await loadArticles();
+    return sitemapWithArticles(staticXml, articles);
+  } catch {
+    return staticXml;
+  }
+}
+
+export function sitemapWithArticles(staticXml, articles) {
+  if (!articles?.length) return staticXml;
+  const entries = articles.map((article) => {
+    const date = /^\d{4}-\d{2}-\d{2}T/.test(article.isoDate) ? article.isoDate.slice(0, 10) : null;
+    return `<url><loc>${escapeHtml(articleUrl(article.slug))}</loc>${date ? `<lastmod>${date}</lastmod>` : ""}</url>`;
+  }).join("");
+  return staticXml.replace("</urlset>", `${entries}</urlset>`);
+}
+
 export async function requestHandler(req, res) {
   for (const [name, value] of Object.entries(publicHeaders)) res.setHeader(name, value);
   try {
@@ -71,9 +100,10 @@ export async function requestHandler(req, res) {
       res.setHeader("X-Robots-Tag", "noindex, nofollow");
       res.setHeader("Referrer-Policy", "no-referrer");
     }
-    const host = String(req.headers["x-forwarded-host"] ?? req.headers.host ?? "").split(",")[0].trim().toLowerCase();
-    if (host === "gulfcdd.com") {
-      res.writeHead(301, { Location: `https://www.gulfcdd.com${url.pathname}${url.search}` });
+    const hostHeader = req.headers["x-forwarded-host"] ?? req.headers.host;
+    const wwwTarget = wwwRedirectTarget(hostHeader, url.pathname, url.search);
+    if (wwwTarget) {
+      res.writeHead(301, { Location: wwwTarget });
       return res.end();
     }
     const legacyStateDestination = legacyStateRedirects.get(url.pathname.replace(/\/+$/, ""));
@@ -115,18 +145,8 @@ export async function requestHandler(req, res) {
     const type = MIME[extname(file).toLowerCase()] ?? "application/octet-stream";
     let body = await readFile(file);
     if (url.pathname === "/sitemap.xml") {
-      try {
-        const { articles } = await getSoro();
-        const entries = articles.map((article) => {
-          const date = /^\d{4}-\d{2}-\d{2}T/.test(article.isoDate) ? article.isoDate.slice(0, 10) : null;
-          return `<url><loc>${escapeHtml(articleUrl(article.slug))}</loc>${date ? `<lastmod>${date}</lastmod>` : ""}</url>`;
-        }).join("");
-        body = Buffer.from(body.toString().replace("</urlset>", `${entries}</urlset>`));
-      } catch {
-        // Do not present an incomplete successful sitemap during an upstream outage.
-        return await send(req, res, "Sitemap temporarily unavailable", MIME[".txt"], 503, "no-store");
-      }
-      return await send(req, res, body, type, 200, "public, max-age=60");
+      const xml = await enrichSitemap(body.toString());
+      return await send(req, res, xml, type, 200, "public, max-age=60");
     }
     if (type.startsWith("text/html")) {
       const result = await enrichHtml(body.toString(), url);

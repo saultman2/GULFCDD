@@ -1,9 +1,6 @@
-# Explicitly allow Google's AI/search crawlers to access public pages.
-# The broad rule below still governs all other crawlers.
+# Google's documented control for Gemini and Vertex AI training is the token Google-Extended.
+# Allow is the default; this block states it explicitly.
 User-agent: Google-Extended
-Allow: /
-
-User-agent: Googlebot-Extended
 Allow: /
 
 User-agent: *
