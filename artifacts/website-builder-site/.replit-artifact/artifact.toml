@@ -1,0 +1,82 @@
+kind = "web"
+previewPath = "/"
+title = "WebCraft Pro - Website Building Service"
+version = "1.0.0"
+id = "artifacts/website-builder-site"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25175
+
+[services.development]
+run = "pnpm --filter @workspace/website-builder-site run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/website-builder-site", "run", "build" ]
+postPublish = [ "pnpm", "--filter", "@workspace/website-builder-site", "run", "check:seo:live", "--", "https://www.gulfcdd.com" ]
+run = [ "node", "artifacts/website-builder-site/scripts/serve.mjs" ]
+
+# Public routes are pre-rendered as static directory indexes during the build.
+# Keep rewrites limited to authenticated/utility SPA routes so a public URL can
+# never be rewritten to the homepage before its route-specific HTML is served.
+[[services.production.rewrites]]
+from = "/sign-in"
+to = "/index.html"
+
+[[services.production.rewrites]]
+from = "/sign-in/*"
+to = "/index.html"
+
+[[services.production.rewrites]]
+from = "/sign-up"
+to = "/index.html"
+
+[[services.production.rewrites]]
+from = "/sign-up/*"
+to = "/index.html"
+
+[[services.production.rewrites]]
+from = "/account"
+to = "/index.html"
+
+[[services.production.rewrites]]
+from = "/account/*"
+to = "/index.html"
+
+[[services.production.rewrites]]
+from = "/checkout/*"
+to = "/index.html"
+
+[[services.production.rewrites]]
+from = "/thank-you"
+to = "/index.html"
+
+[services.env]
+PORT = "25175"
+BASE_PATH = "/"
+
+[[services.production.responseHeaders]]
+path = "/assets/*"
+name = "Cache-Control"
+value = "public, max-age=31536000, immutable"
+
+[[services.production.responseHeaders]]
+path = "/images/*"
+name = "Cache-Control"
+value = "public, max-age=2592000"
+
+[[services.production.responseHeaders]]
+path = "/fonts/*"
+name = "Cache-Control"
+value = "public, max-age=31536000, immutable"
+
+[[services.production.responseHeaders]]
+path = "/videos/*"
+name = "Cache-Control"
+value = "public, max-age=2592000"

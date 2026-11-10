@@ -1,0 +1,6 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="28" fill="#080808"/>
+  <path d="M30 100C51 77 72 67 101 68C122 69 137 76 151 88C133 83 118 84 103 92C87 100 75 115 61 124C50 131 40 131 30 126C38 121 43 114 44 106C40 105 35 103 30 100Z" fill="#C01428"/>
+  <path d="M34 93C51 78 72 72 98 73C119 74 133 80 146 89C126 84 112 88 97 98C82 108 71 120 58 126C48 131 39 128 32 124C41 119 45 112 45 105C41 102 37 98 34 93Z" fill="#F7F7F7" opacity=".92"/>
+  <text x="90" y="57" text-anchor="middle" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">GULFCDD</text>
+</svg>

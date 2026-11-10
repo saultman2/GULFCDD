@@ -1,0 +1,1419 @@
+{
+  "created": "2026-10-20T00:31:26.593Z",
+  "pages": [
+    {
+      "route": "/about/",
+      "title": "About GulfCDD | Gulf Coast Web Design, Veteran-Owned",
+      "description": "Meet GulfCDD, founded by two brothers raised on the Gulf Coast. We provide website design, digital marketing, and ongoing support for local businesses.",
+      "canonical": "https://www.gulfcdd.com/about/",
+      "formCount": 0,
+      "hash": "81b80a89cd3053306f45ece42d986a46cc611ca35ff6e47ef365cf50469d7add",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "WebSite"
+      ],
+      "approvedTitle": "About Us | Veteran-Owned Web Design in Biloxi | GulfCDD",
+      "approvedDescription": "Gulf Coast Digital Designs is a veteran-owned web design and SEO team started by two brothers raised on the Mississippi Gulf Coast."
+    },
+    {
+      "route": "/blog/",
+      "title": "Gulf Coast Business Blog | GulfCDD",
+      "description": "Practical web design, local SEO, and digital marketing insights for small businesses across the Mississippi Gulf Coast.",
+      "canonical": "https://www.gulfcdd.com/blog/",
+      "formCount": 0,
+      "hash": "6bb8aae21d4f0c5c818b2db354c05b3590fa92a2ff57a59526ec641855b532de",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "WebSite"
+      ],
+      "approvedTitle": "Gulf Coast Business Blog | GulfCDD",
+      "approvedDescription": "Practical web design, local SEO, and digital marketing insights for small businesses across the Mississippi Gulf Coast."
+    },
+    {
+      "route": "/contact/",
+      "title": "Contact GulfCDD | Free Gulf Coast Website &amp; SEO Quote",
+      "description": "Talk to GulfCDD about Mississippi web design, local SEO, or your existing website. Tell us what you need and request a free quote from our Gulf Coast team.",
+      "canonical": "https://www.gulfcdd.com/contact/",
+      "formCount": 1,
+      "hash": "99870911e4bda4572ed27f28290deff578122a8c6194c8faeabef8115a54a984",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "WebSite"
+      ],
+      "approvedTitle": "Contact Gulf Coast Digital Designs | (228) 278-7782",
+      "approvedDescription": "Call (228) 278-7782 any time or send a quick note for a free website or SEO quote. Serving Biloxi, the Coast, New Orleans and Mobile."
+    },
+    {
+      "route": "/faq/",
+      "title": "Website Design, Hosting &amp; Pricing FAQs | GulfCDD",
+      "description": "Get answers about GulfCDD website projects, tiers, revisions, hosting, SEO, ownership, and cancellation before choosing a Gulf Coast web design partner.",
+      "canonical": "https://www.gulfcdd.com/faq/",
+      "formCount": 0,
+      "hash": "81507a2ffdd082edad7da7259dcc0f8ef7867baa765a6947ab372769dc6ef79c",
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "FAQPage",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "Question",
+        "WebSite"
+      ],
+      "approvedTitle": "Web Design &amp; SEO Questions Answered | Gulf Coast Digital Designs",
+      "approvedDescription": "Straight answers on cost, contracts, AI search, and how we work with Biloxi and Gulf Coast businesses."
+    },
+    {
+      "route": "/",
+      "title": "Mississippi Web Design &amp; Local SEO | GulfCDD",
+      "approvedTitle": "Biloxi Web Design &amp; Local SEO | Gulf Coast Digital Designs",
+      "approvedDescription": "Veteran-owned web design, local SEO and AI search help for Gulf Coast businesses. Plans from $150/mo, no contract. Call (228) 278-7782, any hour.",
+      "description": "Need a Mississippi website designer? GulfCDD builds custom sites and handles local SEO for Ocean Springs, Biloxi, Gulfport, and nearby Gulf Coast businesses.",
+      "canonical": "https://www.gulfcdd.com/",
+      "formCount": 0,
+      "hash": "fede5cde31c42939951e4ebb0b0b9811482b5362e55d6b1bef51846ca14e36f1",
+      "schemaTypes": [
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "WebSite"
+      ]
+    },
+    {
+      "route": "/intake/",
+      "title": "Website Project Intake &amp; Free Quote | GulfCDD",
+      "description": "Share your business, service area, website goals, and content with GulfCDD. Choose a quick or detailed intake form to start your free website quote.",
+      "canonical": "https://www.gulfcdd.com/intake/",
+      "formCount": 2,
+      "hash": "f7de1de71c8c781fccff4922df3383d03a764eb5113fe19321c95f326ac82c90",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "WebSite"
+      ],
+      "approvedTitle": "Start Your Website Project | Free Quote | GulfCDD",
+      "approvedDescription": "A few quick questions about your business and goals. We'll reply with honest next steps and a plan recommendation."
+    },
+    {
+      "route": "/membership/",
+      "title": "Website Hosting &amp; Maintenance Plans | GulfCDD",
+      "description": "Compare self-managed, Standard, and VIP hosting with GulfCDD. See which plans cover backups, content changes, design updates, and ongoing local SEO care.",
+      "canonical": "https://www.gulfcdd.com/membership/",
+      "formCount": 0,
+      "hash": "a72e05be7f5c62c1d63c1c58d9deefbc88fae8db0b830d2859dd577c5fc9e45a",
+      "schemaTypes": [
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "WebSite"
+      ],
+      "approvedTitle": "Monthly Plans From $150, No Contract | GulfCDD",
+      "approvedDescription": "Essential $150/mo covers hosting and upkeep. Growth and Full Service add more help. Every plan includes an analytics report. No contract."
+    },
+    {
+      "route": "/pricing/",
+      "title": "Website Plans &amp; Project Quotes | GulfCDD",
+      "description": "Compare GulfCDD's Standard, Gold, Platinum, and Custom website plans. See page counts, features, and support, then request a quote for your Gulf Coast business.",
+      "approvedDescription": "Essential $150/mo, Growth $500/mo, Full Service $1,000/mo. Founding clients: half off and a free build through Jan 31, 2027. No contract.",
+      "canonical": "https://www.gulfcdd.com/pricing/",
+      "formCount": 0,
+      "hash": "db11908302b9d009fd4219031db8a80b5f58f066768b6bc55ee90ccf93ae7eda",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "WebSite"
+      ],
+      "approvedTitle": "Website &amp; SEO Plans From $150/mo, No Contract | GulfCDD"
+    },
+    {
+      "route": "/privacy/",
+      "title": "Privacy Policy | GulfCDD — Gulf Coast Digital Designs",
+      "description": "Privacy policy for Gulf Coast Digital Designs, LLC. Learn how we collect, use, and protect your personal information.",
+      "canonical": "https://www.gulfcdd.com/privacy/",
+      "formCount": 0,
+      "hash": "c006dd48427d405ec5463a17f987b321ba8825616b139f55f1a610ad950d9feb",
+      "schemaTypes": [
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "WebSite"
+      ],
+      "approvedTitle": "Privacy Policy | GulfCDD — Gulf Coast Digital Designs",
+      "approvedDescription": "Privacy policy for Gulf Coast Digital Designs, LLC. Learn how we collect, use, and protect your personal information."
+    },
+    {
+      "route": "/service-areas/bay-st-louis/",
+      "title": "Bay St. Louis, MS Web Design for Local Shops | GulfCDD",
+      "description": "GulfCDD serves Bay St. Louis businesses with custom web design, hosting, and local SEO. Plan clear shop, restaurant, or booking information. Get a free quote.",
+      "canonical": "https://www.gulfcdd.com/service-areas/bay-st-louis/",
+      "formCount": 0,
+      "hash": "dd3a94cedb424b489b9537c7620218f7744d558a194ec061f6a1455415bd67b6",
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "FAQPage",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "Question",
+        "Service",
+        "State",
+        "WebSite"
+      ],
+      "approvedTitle": "Bay St. Louis, MS Web Design for Local Shops | GulfCDD",
+      "approvedDescription": "Websites for Bay St. Louis Old Town shops, galleries, and restaurants, including weekend visitors from New Orleans. No contract."
+    },
+    {
+      "route": "/service-areas/biloxi/",
+      "title": "Biloxi Web Design &amp; Local SEO Company | GulfCDD",
+      "description": "Custom web design for Biloxi restaurants, contractors, shops, and hospitality businesses. GulfCDD offers hosting, maintenance, and local SEO. Free quote.",
+      "canonical": "https://www.gulfcdd.com/service-areas/biloxi/",
+      "formCount": 0,
+      "hash": "664dec605d8d48ca418ec41f3b53bc9f0558df31356f49a73afdf54c536ae024",
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "FAQPage",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "Question",
+        "Service",
+        "State",
+        "WebSite"
+      ],
+      "approvedTitle": "Biloxi Web Design &amp; Local SEO | Veteran-Owned | GulfCDD",
+      "approvedDescription": "Biloxi-based web design and local SEO for restaurants, contractors and tourism businesses. Plans from $150/mo, no contract. (228) 278-7782."
+    },
+    {
+      "route": "/service-areas/diberville/",
+      "title": "D'Iberville, MS Custom Web Design &amp; Local SEO | GulfCDD",
+      "description": "GulfCDD serves D'Iberville shops, restaurants, and service businesses with custom web design, local SEO, and ongoing website support. Ask for a free quote.",
+      "canonical": "https://www.gulfcdd.com/service-areas/diberville/",
+      "formCount": 0,
+      "hash": "5676892e4be402ceca6571ecbafe1830d2a7a89baf1a86731fb67d67890b0f21",
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "FAQPage",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "Question",
+        "Service",
+        "State",
+        "WebSite"
+      ],
+      "approvedTitle": "D'Iberville, MS Web Design &amp; Local SEO | GulfCDD",
+      "approvedDescription": "Web design for D'Iberville shops and restaurants near the Promenade and I-110, including visitors from Biloxi. Plans from $150/mo, no contract."
+    },
+    {
+      "route": "/service-areas/gautier/",
+      "title": "Gautier, MS Web Design for Service Businesses | GulfCDD",
+      "description": "Custom web design for Gautier businesses serving Jackson County. GulfCDD plans service pages, contact forms, hosting, and local SEO. Ask for a free quote.",
+      "canonical": "https://www.gulfcdd.com/service-areas/gautier/",
+      "formCount": 0,
+      "hash": "e14a933e19dd95319193195e20e34fb0ef6595e21bef5d2f1e434a62944e5bfb",
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "FAQPage",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "Question",
+        "Service",
+        "State",
+        "WebSite"
+      ],
+      "approvedTitle": "Gautier, MS Web Design for Service Businesses | GulfCDD",
+      "approvedDescription": "Websites for Gautier home services and growing neighborhoods between Ocean Springs and Pascagoula. No contract. (228) 278-7782."
+    },
+    {
+      "route": "/service-areas/gulfport/",
+      "title": "Gulfport Web Design &amp; Digital Marketing | GulfCDD",
+      "description": "Gulfport web design and digital marketing for local businesses. GulfCDD helps with custom websites, local SEO, content, hosting, and updates. Ask for a quote.",
+      "canonical": "https://www.gulfcdd.com/service-areas/gulfport/",
+      "formCount": 0,
+      "hash": "ad0f25eeb8c7f632705ac46379d86c885b995358cd099899cf834986e9477067",
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "FAQPage",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "Question",
+        "Service",
+        "State",
+        "WebSite"
+      ],
+      "approvedTitle": "Gulfport Web Design &amp; SEO for Small Businesses | GulfCDD",
+      "approvedDescription": "Websites and local SEO for Gulfport contractors, shops and service businesses. Veteran-owned, no contract. Call (228) 278-7782."
+    },
+    {
+      "route": "/service-areas/",
+      "title": "Mississippi Gulf Coast Web Design Service Areas | GulfCDD",
+      "approvedTitle": "Service Areas: Mississippi Gulf Coast, New Orleans &amp; Mobile | GulfCDD",
+      "approvedDescription": "Web design and local SEO in Biloxi, Gulfport, Ocean Springs and across the Coast, plus New Orleans and Mobile. Remote work in more states.",
+      "description": "Explore GulfCDD's web design service areas across the Mississippi Gulf Coast, from Bay St. Louis to Pascagoula. Custom websites, hosting, and local SEO.",
+      "canonical": "https://www.gulfcdd.com/service-areas/",
+      "formCount": 0,
+      "hash": "ed9fddcf29fea182c9813f9f4bc1751c55ac6708b09e7f2755b9d537502d6618",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "WebSite"
+      ]
+    },
+    {
+      "route": "/service-areas/long-beach/",
+      "title": "Long Beach, MS Web Design &amp; Maintenance | GulfCDD",
+      "description": "GulfCDD serves Long Beach, MS shops, restaurants, and service providers with custom web design, maintenance, hosting, and local SEO. Get a free project quote.",
+      "canonical": "https://www.gulfcdd.com/service-areas/long-beach/",
+      "formCount": 0,
+      "hash": "68c1368d1cb73acaf789774ad3c624cd8f4c638f419c3ffcadd67bf0324594d5",
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "FAQPage",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "Question",
+        "Service",
+        "State",
+        "WebSite"
+      ],
+      "approvedTitle": "Long Beach, MS Web Design &amp; Local SEO | GulfCDD",
+      "approvedDescription": "Websites for Long Beach neighborhood services and harbor businesses. Veteran-owned, no contract. Call (228) 278-7782."
+    },
+    {
+      "route": "/service-areas/ocean-springs/",
+      "title": "Web Design &amp; SEO in Ocean Springs, MS | GulfCDD",
+      "description": "Web design, SEO, and local marketing in Ocean Springs for shops, restaurants, and service businesses. Talk to GulfCDD about your website and get a free quote.",
+      "canonical": "https://www.gulfcdd.com/service-areas/ocean-springs/",
+      "formCount": 0,
+      "hash": "2c3c9012579a9a8596c58d3c4dad4db2957c9ce2e055a9dfec26fa90ae2b9a68",
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "FAQPage",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "Question",
+        "Service",
+        "State",
+        "WebSite"
+      ],
+      "approvedTitle": "Ocean Springs Website Designer &amp; Local SEO | GulfCDD",
+      "approvedDescription": "Websites for Ocean Springs shops, galleries, restaurants and service pros. Local, veteran-owned, no contract. (228) 278-7782."
+    },
+    {
+      "route": "/service-areas/pascagoula/",
+      "title": "Pascagoula, MS Web Design for Small Businesses | GulfCDD",
+      "description": "GulfCDD serves Pascagoula contractors, auto shops, restaurants, and service businesses with custom web design, hosting, and local SEO. Ask for a free quote.",
+      "canonical": "https://www.gulfcdd.com/service-areas/pascagoula/",
+      "formCount": 0,
+      "hash": "b06b486bcfaff17f1e583c0d340061ce2f4c77bbb3fd0a44f08cec40b31bb154",
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "FAQPage",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "Question",
+        "Service",
+        "State",
+        "WebSite"
+      ],
+      "approvedTitle": "Pascagoula, MS Web Design for Small Businesses | GulfCDD",
+      "approvedDescription": "Websites for Pascagoula contractors and businesses serving the shipyard workforce. 24/7 phone line. Plans from $150/mo, no contract."
+    },
+    {
+      "route": "/services/design/",
+      "title": "Website Design in Mississippi | GulfCDD",
+      "approvedTitle": "Small Business Website Design &amp; Redesigns | Biloxi, MS | GulfCDD",
+      "approvedDescription": "Mobile-friendly websites that explain what you do, where you work, and how to reach you. Free build for founding clients through Jan 31, 2027.",
+      "description": "Mississippi website design for Gulf Coast businesses. GulfCDD builds custom sites, landing pages, and redesigns with useful content and mobile-friendly layouts.",
+      "canonical": "https://www.gulfcdd.com/services/design/",
+      "formCount": 0,
+      "hash": "4a472e752d8efc98f45fe5641cfa5e8655ec5e8d83e3e6ee68f0ed42577d3c2e",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "route": "/services/development/",
+      "title": "Website Development, Forms &amp; Stores | GulfCDD",
+      "description": "GulfCDD builds responsive websites, online stores, quote forms, and booking requests for Gulf Coast businesses. Explore features and discuss your project scope.",
+      "canonical": "https://www.gulfcdd.com/services/development/",
+      "formCount": 0,
+      "hash": "3215e98c24f280caaf977f9163b8fb3fbb6185736229601d581c1bccec0e97c5",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "Service",
+        "WebSite"
+      ],
+      "approvedTitle": "Website Development: Forms, Booking &amp; Online Stores | GulfCDD",
+      "approvedDescription": "Quote forms, booking requests, online stores and custom features built by our own team for Gulf Coast businesses."
+    },
+    {
+      "route": "/services/hosting/",
+      "title": "Managed Website Hosting &amp; Domains | GulfCDD",
+      "description": "GulfCDD manages cloud website hosting, domains, SSL, monitoring, and backups for Gulf Coast businesses. Compare support options or use your own hosting provider.",
+      "canonical": "https://www.gulfcdd.com/services/hosting/",
+      "formCount": 0,
+      "hash": "cebc48ac6b2cb8b1559918980598b660d732681812c5b943020bd710395844e3",
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "FAQPage",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "Question",
+        "Service",
+        "WebSite"
+      ],
+      "approvedTitle": "Managed Website Hosting in Biloxi, MS | Gulf Coast Digital Designs",
+      "approvedDescription": "Fast, secure hosting with SSL, backups and monitoring, included in every GulfCDD plan. One local number to call when something's off."
+    },
+    {
+      "route": "/services/",
+      "title": "Mississippi Web Design &amp; Digital Marketing Services | GulfCDD",
+      "approvedTitle": "Web Design, SEO &amp; Hosting Services | Gulf Coast Digital Designs",
+      "approvedDescription": "Websites, local SEO, AI search optimization, hosting and maintenance for Gulf Coast small businesses. Monthly plans, no contract.",
+      "description": "Website design, local SEO, and content development for Mississippi Gulf Coast businesses. See what GulfCDD can build, host, maintain, or improve on your site.",
+      "canonical": "https://www.gulfcdd.com/services/",
+      "formCount": 0,
+      "hash": "7b48c37d310f7d2afbe26c3e0fd307f115ebd3862c95e3433c89a1e9b28ec843",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "WebSite"
+      ]
+    },
+    {
+      "route": "/services/maintenance/",
+      "title": "Website Maintenance &amp; Ongoing Support | GulfCDD",
+      "description": "Keep business content current with GulfCDD website maintenance. Explore updates, technical care, and plan-dependent design and local SEO support on the Gulf Coast.",
+      "canonical": "https://www.gulfcdd.com/services/maintenance/",
+      "formCount": 0,
+      "hash": "0181fd5f50ef3ca068ad2291ab50cf6e43d464e2fab81b1581c0027f38e245cc",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "Service",
+        "WebSite"
+      ],
+      "approvedTitle": "Website Maintenance &amp; Updates | Gulf Coast Digital Designs",
+      "approvedDescription": "Content changes, updates, security and a monthly analytics report. Text or call us when something needs changing."
+    },
+    {
+      "route": "/services/seo/",
+      "title": "Mississippi SEO Company | Local SEO, AEO &amp; GEO | GulfCDD",
+      "approvedTitle": "Local SEO, AEO &amp; AI Search for Gulf Coast Businesses | GulfCDD",
+      "approvedDescription": "Get found on Google Maps, search, and AI answers. Local SEO, Google Business Profile and GEO for Biloxi, Gulfport, NOLA and Mobile.",
+      "description": "GulfCDD is a Mississippi SEO company serving Gulf Coast businesses. Get help with local listings, service pages, and SEO in Ocean Springs, Biloxi, and Gulfport.",
+      "canonical": "https://www.gulfcdd.com/services/seo/",
+      "formCount": 0,
+      "hash": "9df21a9dfac8c1e44f190f0678ae752e65a8b6864d7050aaa95b185c252400fd",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "WebSite"
+      ]
+    },
+    {
+      "route": "/terms/",
+      "title": "Terms of Service | GulfCDD — Gulf Coast Digital Designs",
+      "description": "Terms of service for Gulf Coast Digital Designs, LLC. Read our service agreement, payment terms, and cancellation policy.",
+      "canonical": "https://www.gulfcdd.com/terms/",
+      "formCount": 0,
+      "hash": "e46f0e789c20a7b1440bbed1d0f1eb7c0f5a2f8305d59cce4f2bb1a8f5fe8e17",
+      "schemaTypes": [
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "WebSite"
+      ],
+      "approvedTitle": "Terms of Service | GulfCDD — Gulf Coast Digital Designs",
+      "approvedDescription": "Terms of service for Gulf Coast Digital Designs, LLC. Read our service agreement, payment terms, and cancellation policy."
+    },
+    {
+      "route": "/what-we-build/",
+      "title": "What We Build: Websites &amp; Custom Applications | GulfCDD",
+      "description": "See website and application options from GulfCDD: service sites, online stores, booking requests, client portals, and integrations for Gulf Coast businesses.",
+      "canonical": "https://www.gulfcdd.com/what-we-build/",
+      "formCount": 0,
+      "hash": "b8f2f412a70cc620c0f9bd7bb3df08e4bd7e1d81e5244be8ac83127d1a258039",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "City",
+        "Country",
+        "GeoCoordinates",
+        "ImageObject",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "PostalAddress",
+        "ProfessionalService",
+        "WebSite"
+      ],
+      "approvedTitle": "Websites &amp; Custom Apps We Build | Gulf Coast Digital Designs",
+      "approvedDescription": "Service business sites, restaurant sites, online stores, booking tools and custom apps for Gulf Coast businesses."
+    }
+  ],
+  "files": [
+    {
+      "path": "artifacts/website-builder-site/src/App.tsx",
+      "sha256": "34ae9eef2241044af28ef4a50bec534d2c596dbb36474d472f33db370f175516"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/AuthenticatedApp.tsx",
+      "sha256": "15aa2e7265186775b694fa2c8fd792c1da547da18fffbbebb06dd1091940f61d"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/AccountLayout.tsx",
+      "sha256": "50cd9ac96e63874b567aad527b7b16d59a6b318015d6ac626b1762354e639d39"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/AreasStrip.tsx",
+      "sha256": "170ac78560266ffd27455ba57a8c1afcf09f656f891cfd50ec1d4bb039a5d7d8"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/EmailLink.tsx",
+      "sha256": "ab6df16a7bb817a5d4c9163c658cade951c58f86e0c68aa84b724625bceeadcb"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ExitIntentPopup.tsx",
+      "sha256": "8cc0500b8ef7174a3d6d2fdd55cd4ea744fb734b2ddd36e3f1824998aa9dbc75"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/HomePromotion.tsx",
+      "sha256": "55d43a8df43a91528673cbcf5c975cd138d54a4e5a00e02196c5d734c9cf1d50"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/MathChallenge.tsx",
+      "sha256": "2f5e8988043f4733544d0d757ebf172d7c8503ddec557bd3ef8e979b03120086"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/PageHero.tsx",
+      "sha256": "387b3c4ce86ba4ecede808b121fb91d8d28b8ea1b03060b22a13e47f9855534f"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ServiceAnswerBlock.tsx",
+      "sha256": "c5d92267a75bf9167ba3f597d9a0495c8a0a3af2c01c1df82eb5a4fe9010e347"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ServiceAreaTemplate.tsx",
+      "sha256": "91d5ee4019fe02dea771a7374cef456abb27c39622147cb353b3428669678e27"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/SupportWidget.tsx",
+      "sha256": "1f927f6fa122b7d148182f741e6ce444d71bc99d1b12ff6d95225824e8239b1a"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/accordion.tsx",
+      "sha256": "dcbfb3243a26096fc3e5f54039ccb5c4c23d9bb79a4d5846b4be75bf912f07d9"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/alert-dialog.tsx",
+      "sha256": "311bede35f785d7b1ecd7398986757e26409d1049352a94ccf83586b8603c92d"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/alert.tsx",
+      "sha256": "5950ac01377e7eedc94b00eb3fee678745e4cc1a72b5343867f0733d07db6660"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/aspect-ratio.tsx",
+      "sha256": "08b0aa0b05efc573c7d63363c03e83d4b101bfeb54140764e96ddea30659cfcc"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/avatar.tsx",
+      "sha256": "e78b35ed76c67d8ff50603fbe0dfa4fe600097bd860d89e65beea3e16683dad8"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/badge.tsx",
+      "sha256": "3c339f439797dba9b3872a9d89db42420ffd900504b4e0b27e9dad51e87bc41c"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/breadcrumb.tsx",
+      "sha256": "c3d3dcb0d82fc5e91d8830bac7fead905686fe876f1f42c3ed872bb0a6b6584e"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/button-group.tsx",
+      "sha256": "e3716d270e9ef6457b5cd29464ae00194abc8093c08ebf726c9204d7a69231d9"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/button.tsx",
+      "sha256": "9a9edf4fda319623ee228d5cb26ac31dd008dcfd5c57dbafe3b7d768e59e50ca"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/calendar.tsx",
+      "sha256": "787a19c855cf2b826942d25440b63150c45094154c6a40e95abdb4109298b8b4"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/card.tsx",
+      "sha256": "525c4bb2c051987be64df0e92e1d90174912b219bf541e24ffbc4a3406de49e8"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/carousel.tsx",
+      "sha256": "5a4ff73c804e86c873382da80c453f1399006326ef042fb984c24162ec86666e"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/chart.tsx",
+      "sha256": "b40d1236f168c746b228adec6bc4e9d196ea362a7910878f161d3c359a013b89"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/checkbox.tsx",
+      "sha256": "ac389a574651c8bedffc10f80674c5fc2f02ab81291a5f4ad9c587d1f775fdce"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/collapsible.tsx",
+      "sha256": "f4cdd104de29928bfcd40b865c7d08eed9157a537fbb8b5e6d0921f02b63cc04"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/command.tsx",
+      "sha256": "5a57ebc119f2357b097098d22865d45de8fda623ee88fe98b99999838c13633b"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/context-menu.tsx",
+      "sha256": "5369fc82c51df067aec2934f5e711aaf9e3f745ed7baadd7ba4b77397dee2a1b"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/dialog.tsx",
+      "sha256": "f9c982ed8114c253c6ca738043d3f455e89c6d65569e90c9415776d6b4d6be14"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/drawer.tsx",
+      "sha256": "47ff6248307a4ac09bf7e00181a2a29f9f846691092e04cad03e15d749bc249b"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/dropdown-menu.tsx",
+      "sha256": "dc109123ecd59af01d07aa9f3a8e8a7085bd3f337388c5369799ab1ce6c2d45f"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/empty.tsx",
+      "sha256": "9f975582a0290dbc7ce6efa3b36b376a4c3f07863026c3b74c1e73cb0023acb8"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/field.tsx",
+      "sha256": "e463611ab049c5e9b1c61691d239e05970ead7b577a191b3f80aa6f8ffccada9"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/form.tsx",
+      "sha256": "d50adf86568f76246f0f319c9e1e858627475563f6c1e38f5df7d4ee23958559"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/hover-card.tsx",
+      "sha256": "00f9086b1412843e04e01d31d2fab00a25d65d789d1a382e41f01b1f3c167c3b"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/input-group.tsx",
+      "sha256": "e9dad28bc940ca29714312d6c75d83bfe63f0cf7f9a384d2a2969a00a1d79700"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/input-otp.tsx",
+      "sha256": "7c4799e3597f2780c09a39a1391b921fa16eaedd0476457492af734f58e2ec98"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/input.tsx",
+      "sha256": "6299a6a387dc55e528aec4342deaea0b83f1ea3a365c135a31a18ee55334f441"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/item.tsx",
+      "sha256": "90983640aa7cfef8217422347d8e14825cf55137c76369decacf440767f03188"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/kbd.tsx",
+      "sha256": "0c025e7736d435f563bfb44105e562629672799eb1f35cbf194148d06cd1a9f7"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/label.tsx",
+      "sha256": "2eac8fbb04002c42b0fbc4062d20d131e421796eaf65c37d2049e29e42ecbc5a"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/menubar.tsx",
+      "sha256": "def61eb2c47c9ec319423471f4ca20045e99549958211cacf832e4ede769e484"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/navigation-menu.tsx",
+      "sha256": "a06d96a582ac207ffcd38445d773c05e841d646efb185b5e9b65f73e5bd388c7"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/pagination.tsx",
+      "sha256": "9506dbd19ddd0c2810d1c9668a3f01606e39d9bf33ddc43329523c03bf629012"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/popover.tsx",
+      "sha256": "04cf38bf94abd3fe1b51e90227e6e235ca74776f6fc6af718bfc149e7424f582"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/progress.tsx",
+      "sha256": "6b3b4b69a1cb361076174892e9a96e1a09020307616965ef89f2f7e2495b57a9"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/radio-group.tsx",
+      "sha256": "9ba7808b7404cdf2159c81883a39290033bc4308f2978eb80797c92b87421301"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/resizable.tsx",
+      "sha256": "70d1e35a5fb0897af7063cdd841d8ed636e1c332ef7ea6469f0f175a5a93dddf"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/scroll-area.tsx",
+      "sha256": "d7d02600effca55d0dcadce8c09c97ebddda3a19c5fa1d52dc9f6f727b26c6b1"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/select.tsx",
+      "sha256": "3d93ae07a8f3fe121ba60f4439e26bd7859f247eb8bfcafcf4b4a8a069888eec"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/separator.tsx",
+      "sha256": "c956c4cca4b8442fa9314d6079b9f975e1ee39d5804aaf2966990f6258ac342a"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/sheet.tsx",
+      "sha256": "363f8e06aa5b53c6475f445117f60fa9294be79e9e4f1f5bf70886800188124e"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/sidebar.tsx",
+      "sha256": "b023ff6245be1930e152a18c6aaa2b6dd1a11df7b05fcf41bbe483968bfb1c39"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/skeleton.tsx",
+      "sha256": "87608e7cc815ad3d88e0b9de6c402bb37b58ea1b38636cf69709da1baff6e334"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/slider.tsx",
+      "sha256": "234e38fef59169bd02d8f5b56ca02e5ec13a0bd6846c328927b924e1299f7fb0"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/sonner.tsx",
+      "sha256": "771ab8637d27384c3ed030ba3be01a07b90c791c294eae06646250f8e81bc49e"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/spinner.tsx",
+      "sha256": "3e6e6e8d37fb4069f8e43e55318f8db06fbc36e6c8be0096da3c9337c1c798b9"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/switch.tsx",
+      "sha256": "ba5867cd3145af1290edd80bb56d4b6d61c6331aa8ef96ae0b85487f4499feaf"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/table.tsx",
+      "sha256": "a4a6972c2d47d465d7f02c1dc4a6cbfeda7a97e46479c1b0cebdaf26bf9b497a"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/tabs.tsx",
+      "sha256": "6f74706bc6b53f9e4bcebb5e7ab8743b616aef181edc7758b8ee905f9b2fdcd7"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/textarea.tsx",
+      "sha256": "ec7c92aaed80f6923a7caa4bfe4eead395b50a7001504fd7fbb0b9381804dae9"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/toast.tsx",
+      "sha256": "99f9f4a3e897f71d89b01c6772b2f5db51b888cecb2c8214fb2c2dbb2b3e6356"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/toaster.tsx",
+      "sha256": "1348f1a1f9820e2f1394b93cecc156a7e22f03636ab9270753985549aae2be74"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/toggle-group.tsx",
+      "sha256": "dba95ead40d163af6959198ded9853a2cc9282b2cb534980f99937a65edf4e2d"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/toggle.tsx",
+      "sha256": "955fa1bb97505b7a8bba3f7cff1991035a9afa0e1113f5d598147e6369dbf44b"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/components/ui/tooltip.tsx",
+      "sha256": "ce6afa34fb9dae51053a863b4c3f7c6e55f3da23b00149f31a8e4402bc963be0"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/data/blog-meta.json",
+      "sha256": "9c50078bd8fb90e7f3e01004b93ad13ede2644bd72eb6323f22af6019c8e9e12"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/data/blog.ts",
+      "sha256": "18c86159f7c7d9fa866baaea4da88068b47587d75085c7354dbbfaadabf44eb1"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/data/plans.ts",
+      "sha256": "bf9acacf660c31bd2f2884fe680eaf72ca52dad2d9532a0c7d830e5fe78b5317"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/hooks/use-mobile.tsx",
+      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/hooks/use-toast.ts",
+      "sha256": "5aab0623ee24bddf9420c259a23a06996292e38ea70eccbac2715516f6d01a0b"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/hooks/useSEO.ts",
+      "sha256": "054d9711f86067f89fd24769873e3e7eba0c522cc94d534502e4eca0a620c290"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/index.css",
+      "sha256": "3e3bac1816010136e33dfc9b4ee55f870e704b28432db19decda9bbf81c3f92c"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/lib/analytics.ts",
+      "sha256": "b165440840d7a41dfea94f1f8d50a748979a2ca15578b3c0889c1feb77b665b7"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/main.tsx",
+      "sha256": "aa946198a7805df283e6a823d12bb0eae8dd067cec3cafaaf6bc6f5d943115ae"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/AboutPage.tsx",
+      "sha256": "c3ec7867367103c85277035ffdf239940aabcd07cbe94d594052ba424d26bff9"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/AccountDashboard.tsx",
+      "sha256": "a50c4b40be3fef4dc20b3dac10b2e05c72445d553e8aead3703de5c39c0b4260"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/AccountMessages.tsx",
+      "sha256": "ea0555caff5b978ab57c809cd2fe2dec7441f6bad4d5044f33f7a4c1e1ec7f04"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/AccountPayments.tsx",
+      "sha256": "5d52ba0f202ccddf9be8394d1d407e0f675a06e7b81adc8d46dad6d55c638a9e"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/CheckoutSuccess.tsx",
+      "sha256": "25b7252d875a3570f20db195197d81f13683e162fc43f0ed8337d8a874cc777c"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/ContactPage.tsx",
+      "sha256": "4328bc93c3265711d6a9fafc020e1cb5b0eac52dd62e4db046a6aa792fa6d442"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/DesignIdeasPage.tsx",
+      "sha256": "4b210309fd85c72071f2ed77e82f95982061602946ec90599eead33ea0b8b7a8"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/FAQPage.tsx",
+      "sha256": "1e2110a3302b3473f62b4aa3e8e62c5ae85ba7df0710435a51f737159108dae2"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/Home.tsx",
+      "sha256": "30c90bb8106eb438d025d7fc03cd99c90a58c22e0f2aa0d7391c0602aa7221d2"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/IntakePage.tsx",
+      "sha256": "a1fe82876cd18bbb168a87fcf464d08edc89d6c8ff2c576e3f255804aa5d86e0"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/MembershipPage.tsx",
+      "sha256": "585c5b04d200049ac5e39bfa3c072dc5ffe81172b0e5a40f854632908153d6b3"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/PricingPage.tsx",
+      "sha256": "ec3c2ef2acd5c5f4c2a6f30872b889ff57eaf69345bf93c5182d53c6da1d6f44"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/PrivacyPage.tsx",
+      "sha256": "cd3479e832404277ef0283e5deb9a5c3ed6092acdb3a95a3e7cd0c98cd9c53f1"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/ServiceAreasPage.tsx",
+      "sha256": "e77741440b6b31a682ad218bacb6cb135e4616254c6e5f897060889df2cbb1ab"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/ServicesPage.tsx",
+      "sha256": "bce0cf58deb16ac54c27499f3aed4071efb5bbda71b8ef95b5633c5c4533f9b0"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/SignInPage.tsx",
+      "sha256": "b222b53040211dec8fa7b5380a635d7c14357b3e3cf29f573fe5088da00ac7a9"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/SignUpPage.tsx",
+      "sha256": "f511d2e7c7d1813610a2cf24577dc1e7a1c8f484429e7818b917de2ac874b7af"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/TermsPage.tsx",
+      "sha256": "21cbc838d3d575d93c3ca47bd2dd1ace628b6a841cd947f9f0cd9c2337680668"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/ThankYouPage.tsx",
+      "sha256": "3990cc3f1e36619395637c7bf62a620f118a6f067e3187851a473375f72145bd"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/WhatWeBuildPage.tsx",
+      "sha256": "5947ea891a618d67be108d8339ea58cf6b5efa4a63ffde282a6abedd5bc9cabd"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/blog/BlogIndexPage.tsx",
+      "sha256": "17397959f1be5140c1e0d261c26792c4e829b2ecc4f9cef7e8e54aee5b004756"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/blog/BlogPostPage.tsx",
+      "sha256": "b4ee5a9bbdd8b39472ad96282e7a097240208d770526059f9438eb7b5d6c869c"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/blog/SoroBlogPage.tsx",
+      "sha256": "4ddfd01f203ef65eec6c08366c730d6b5e87cfc37659e1e7bd0b1dbd19e446d9"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/not-found.tsx",
+      "sha256": "718a41bd05a163d1db32480aba013f5fe754894e656b6542a8e4b302275b172e"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/service-areas/BayStLouisPage.tsx",
+      "sha256": "1bf35f923a03fea605da5098947c621511de0f77af781cbc406160a7088935c8"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/service-areas/BiloxiPage.tsx",
+      "sha256": "d15d60932258f92df3f4d845036a8b400d4de7a9c9865245c0781d097f2e5c22"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/service-areas/DIbervillePage.tsx",
+      "sha256": "74fab9711f60e18853a6bd2ee1f2561d78456c2cf94bf9a53882eab060b5567e"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/service-areas/GautierPage.tsx",
+      "sha256": "b5cfec4169a04eb322058ca7fa21c62581285dd8e1307b055ac59834ef8bc10f"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/service-areas/GulfportPage.tsx",
+      "sha256": "af42dd6dc0b0cdca8ce97f20f3a2f9875872c96d27bd6c95d5cb8e9a55ca8e5e"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/service-areas/LongBeachPage.tsx",
+      "sha256": "b1cec05ad73cbb0c41f8c13ffea1b938bce00b3c427482de55386ba591a52469"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/service-areas/OceanSpringsPage.tsx",
+      "sha256": "b443e1c77330ba84dfb12212ce4a5f65713843dbd2b1c7f24c88986fc1617ddf"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/service-areas/PascagoulaPage.tsx",
+      "sha256": "d3cb92ec36e0bf1d9b06204dd3a61f454c85cd02b7ede892181b45091a6392ad"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/services/DesignPage.tsx",
+      "sha256": "cfdd6cf7b9c8c41b978ff866ac3d4c0ab59d7700f6f23c55056645b359f1722e"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/services/DevelopmentPage.tsx",
+      "sha256": "a0c13aeb4959fe2ee3cd8f16652e8df870d75802bb8c23713b93edbb6e60a6e8"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/services/HostingPage.tsx",
+      "sha256": "99f71a67a64874b2a2bb01b76fb577c93a9190fc3240242960f8d1b19fb02c2d"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/services/MaintenancePage.tsx",
+      "sha256": "2fe8eaabee87fbb137e31c82d0df935c790b365db693e1c32eb3670e2662ccd7"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/pages/services/SEOPage.tsx",
+      "sha256": "1ac9227a881d276ab87443b42e0867ac631247377ac27b43d328f35b7bd5151d"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/sections/Contact.tsx",
+      "sha256": "7eb8e2c5a78c9f765dcfc132a51f7d51991b152964e8f54c14962a7b9bcb247b"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/sections/ExistingWebsiteMarketing.tsx",
+      "sha256": "021dd408cd80ad1929e28e067de95b7dd222cc83faedd3643a94f1a3422f00d6"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/sections/Footer.tsx",
+      "sha256": "369ba4b8ce293053a86b22a0ab25d6950546771d4caed1c8526d23255701c919"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/sections/Header.tsx",
+      "sha256": "e44a07594f273faf0d1ed101ab8dce991b39f8f7ea08fb6bb19127b1cfcbb968"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/sections/Hero.tsx",
+      "sha256": "ac5369ac8dccefd62f7c8e0883775f148f9498b0ceb78f9e501dd1d299bd1349"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/sections/HomeMarketing.tsx",
+      "sha256": "f5268a2105661b69fc9d05ff09e8dcdc26f061c000fed12a01eca2aa7b4fa880"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/sections/Membership.tsx",
+      "sha256": "d5c5672c737158b777bb92057ef0bf7b1bbcf642df9d76bc25663b3c2a75cd4c"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/sections/Packages.tsx",
+      "sha256": "002e83ee2a98a314c9156b6d3a444c7fb6ed0c4634454a8510227f63d125ac2e"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/sections/Process.tsx",
+      "sha256": "984ad8fd5c21bded53775f3d90f4f998785844061ab007a5fb15129d58fe20ae"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/sections/Reviews.tsx",
+      "sha256": "eea9a5d587231c62fbf2444e09e2c75fd8b52dffdb99aac87a074563a8415e54"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/sections/ServicePlans.tsx",
+      "sha256": "61afef34b600738a1ab8e33548fcc4cd7ea5daeeffcee7a09e87e1ed201e4865"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/sections/Services.tsx",
+      "sha256": "59dd40130c24c58e53b0122acff7a090478e4dd55252aff918e60af5921ff81f"
+    },
+    {
+      "path": "artifacts/website-builder-site/src/sections/Templates.tsx",
+      "sha256": "41d391f8871c4aa2aba2f6cf6c558a862b61456f2d4f417b1c640e48dc3f4eb0"
+    },
+    {
+      "path": "artifacts/website-builder-site/scripts/check-delivery.mjs",
+      "sha256": "2e85ed1ac031d7934d4075bdf18c7cb1028bba2ef00eea5038209f5f975be99b"
+    },
+    {
+      "path": "artifacts/website-builder-site/scripts/check-sitemap-regression.mjs",
+      "sha256": "8787d5ba905fbf9b00cf54acf5233007a2468271ab88e61dfb38d175cb1f87cc"
+    },
+    {
+      "path": "artifacts/website-builder-site/scripts/check-sitemap.mjs",
+      "sha256": "6cd053f196d4ceb0a91fc43452dea17c5690ec353f6ef9740e1f9baf2eaf9cf6"
+    },
+    {
+      "path": "artifacts/website-builder-site/scripts/prerender.mjs",
+      "sha256": "c554e0e3eb630a100b4cd6eaf980b96fe09933b2295f6ae0236177ff7e2590ac"
+    },
+    {
+      "path": "artifacts/website-builder-site/scripts/serve.mjs",
+      "sha256": "1ab7ca5183f56f00952bca1d70421fa7eb5e322309937166942f2526d5da912d"
+    },
+    {
+      "path": "artifacts/website-builder-site/scripts/soro-content.d.mts",
+      "sha256": "d91064b618ee5a53861ec5c3ddcc2697eb77daf439be1d1188a95fa38e2185f1"
+    },
+    {
+      "path": "artifacts/website-builder-site/scripts/soro-content.mjs",
+      "sha256": "c4365999a39925270c5081714e883d77d130e57482737e151ff5a4bb010dfb18"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/favicon-48.png",
+      "sha256": "d5d1028d38f5c1377cfc183719123b67ba2a1ca4dfbfb3682b0ed2624f334871"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/favicon.ico",
+      "sha256": "1549bcae384db3ab554b7b225f557e3e27bcc89afcd36801f8903ba855dd8e8a"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/favicon.svg",
+      "sha256": "e8301f0d9e88e91531b67b922d144487f1850fa6fcf97fa101e1b54db3c218b2"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/fonts/poppins-400.woff2",
+      "sha256": "3dc5d0c52428fe1696264907a1054ebbaac07f8cbe45832c105f819c2ae397c0"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/fonts/poppins-500.woff2",
+      "sha256": "289e0afc8be731a86822349e54557296f145926496bd2138db1bac0db77f77a2"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/fonts/poppins-600.woff2",
+      "sha256": "872e862918591a9e824dc03ed92f05729435ffbb8ebbb10eff7eda26592b1798"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/fonts/poppins-700.woff2",
+      "sha256": "197a3cbd7290c242c5c765268cdd69a9a39867fdc80cd13071f243a81c56fb76"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/fonts/poppins-800.woff2",
+      "sha256": "4ef5511d8e7b39ae3f98ffed14d6071d7914e0c145fee5a79bb43aa962ff0fc4"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/gtm-container-GTM-N2ZWDPQT.json",
+      "sha256": "c8da02252cf0ddc7589a7a4993257658ff6de990591562e14366a10cac68ae8f"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/biloxi-coast-optimized.webp",
+      "sha256": "05179a5f018bd9da90a9e77c4a68dad20a2baddd13e86475ae19416e36f2eceb"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/biloxi-coast.jpg",
+      "sha256": "2ba68c8098041b9c6cbe42d610088c2c2518fdfbef5040d60c5f8c82798401d8"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/biloxi-pier-sunset.jpg",
+      "sha256": "ba25f8ab403448ad96960e115129790d7a0c5d2a1f6dba80dda94e7a3f02f990"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/biloxi-pier-sunset.webp",
+      "sha256": "1da9ee8e682527a3cbd132a84d26104a16ee38a7c73aafdda792760bd6b23c6a"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/gulf-coast-beach-walkers.jpg",
+      "sha256": "502675e553e34891a7360ca145664823990be5d33c7c8058746dca9fb7697fb6"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/gulf-coast-beach-walkers.webp",
+      "sha256": "57367f6f792334564b23d28c1e3b8b3551f1d63e51904e65aa692f3564a06ebb"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/gulfcdd-logo-128.webp",
+      "sha256": "c4f2e81158bf6835087b60ead78a94b2f8893a942b21f0c7a5488343534505e4"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/gulfcdd-logo-180.png",
+      "sha256": "d804246e5c3e1606b28c0ba30ae7e7b2e4c133212f16d0058355caca896de788"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/gulfcdd-logo.png",
+      "sha256": "1ebe32b4dabef6c6245b9fda4c5cd0a64207559d7d9138b3e2495b124eb3dae0"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/gulfcdd-logo.webp",
+      "sha256": "b56aed533628f95596cc8ac31074c305a652e68b5053c1359562fa1493c8bcf0"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/hero-bg-mobile.avif",
+      "sha256": "18d84f30869ee6452876e5c963d594ef7dca5e6a08cb50d3614dc44ffddfb2c6"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/hero-bg-mobile.webp",
+      "sha256": "182f01a790d3fb60fb81e635aeec8b366d1ff27a1abac0e1971506a987056181"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/hero-bg-optimized.avif",
+      "sha256": "1da61e921890f0b287f3d3cca400084fc227d182dddf77efdfe9f34e561b8df3"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/hero-bg-optimized.webp",
+      "sha256": "b8bbcf8cc64fa196ce4c362c1a3371ce1f5f7d4ae986b2da0e85eeb1e8132fa3"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/hero-bg.jpg",
+      "sha256": "c25ee1605f3f58a8ad4b9900f92353dc64f046b4b28a0fd1829341ae556f38cd"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/hero-bg.webp",
+      "sha256": "c2d4c365b90bde1b3ce42a8f0c23c74255747e1433369d54f86c5957c84d8aa6"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/knppower-screenshot.png",
+      "sha256": "c38be06e44bd98ef00462ae0f7ce8e5db640f91d881fe8f2cf24f5b9c3f02473"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/knppower-screenshot.webp",
+      "sha256": "d7c83b181ea330376730ef51a591e545295f94d6f24f51ba7cc96d39503c6b64"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/ocean-springs-beach-sunset-optimized.webp",
+      "sha256": "a9cb5752e3fc6aca3796198674415c78b7d5f5fc7aee302a7c17e48ccb017e68"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/ocean-springs-beach-sunset.jpg",
+      "sha256": "d35e469cf2b4150920790ff4684dbd02ced380bafa4f009cd9bc4927c8e6c80a"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/ocean-springs-downtown.jpg",
+      "sha256": "174309f88ca9376f7d20b6d56b41a2c2ea0e4ed6502db64d661c205ab01edf47"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/ocean-springs-downtown.webp",
+      "sha256": "31caeaafc483e2d795842ea64107e43f4a9f5eabff84bc864165b3f66f6d6c48"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/ocean-springs-harbor.jpg",
+      "sha256": "e0fe583ac99ccbf16273e3183c76335ec24fae1e7aadb6db194c7a1359e464b7"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/portfolio/gulftestsite.png",
+      "sha256": "798622654862cea6b06f58ea8e5d7f2ffccb099eae67c420b5346fb53c2e31dc"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/portfolio/gulftestsite.webp",
+      "sha256": "d946846d81737f60515a5097dab7319d3e37523dc1311e7e835fb91072b9d1b4"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/portfolio/kennedygutters.png",
+      "sha256": "50d7bc83b596f7a4aaa86136d27c7246b758aeb0fdae4a7329ff637ea229c97c"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/portfolio/kennedygutters.webp",
+      "sha256": "18b5cfe88e25f9993b6f6de970d932a14c6916aaef89cb30c16bdf68e415c893"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/portfolio/knppower.png",
+      "sha256": "c01af0dc96790e301826c829203f3855251506a3faa42905d34bb8ffacc15d48"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/portfolio/knppower.webp",
+      "sha256": "383076e34ba0c9b53a5dc27747906c137633261a38c635cdaf67755a4a58c8a3"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/portfolio/prosthetic-care.png",
+      "sha256": "04ebdcbf24ed34f74dcffdc6a881688346de4bc8978b6bc8770f8411213aec8b"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/portfolio/prosthetic-care.webp",
+      "sha256": "53b764e90f9382c51138b7e138d6a60fc23271c4d4abe81b42b3550b38211c48"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/preview-artist.jpg",
+      "sha256": "3b31466edec7ed51c3c4fff2e089b825d434eb0ab3f7c412f77e44f0528ff95d"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/preview-entrepreneur.jpg",
+      "sha256": "a841d373743b18021c269e79551f34222466bd5c81d093bfe43692d63a964e1a"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/preview-healthcare.jpg",
+      "sha256": "51ba991407e7f9ed50b81c8065fd5e96b43811006a69ed4e568544cf203c47c1"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/images/preview-tattoo.jpg",
+      "sha256": "654f7ee455c97e3ce462a0114d9cee95f0c0a6f700962a04234a347e1a484a5e"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/llms.txt",
+      "sha256": "666b6f29072d5dc561048cd55ea418adac3fc3e84a1b785d18c480b8b8eced6f"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/logo.svg",
+      "sha256": "24390bcbf6c8257c6c9f5349c98efad2aacc9f35aa8dc93c81f785ffa3e86e3e"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/manifest.json",
+      "sha256": "90bf226d50c5448da7d3628a9d48853f0b2962f821bb8d0b5242c295473cb3f4"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/opengraph.jpg",
+      "sha256": "8a12cb8a15823db9578b598acd70aa8e944623ba6479c963551a0519d520ba14"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/robots.txt",
+      "sha256": "824e24aed0843b31c1af1b9a25778174b1bfcd97b1dd2b59b2c4199943c7558f"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/sitemap.xml",
+      "sha256": "a49093887f49f3cafe35a6d652da461b84e000427c34e61dc7e666d4be38ffff"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/templates/editorial.jpg",
+      "sha256": "0fd96f8b2ab91c042e9b2f825e16b5a4adc1025f3352ccbcaa160b389587d48b"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/templates/forty.jpg",
+      "sha256": "5a02906416697b569869b9f67f0fad1ea0dd4ad9699188e149d46fae9f7ca443"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/templates/lens.jpg",
+      "sha256": "e3382911a1bdb408476bf5502ab9b19e28c614d8dc0c84ae73faf208d24363e0"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/templates/massively.jpg",
+      "sha256": "6f5f5d5190a8d5076153210e2d313cbd8a6a0669b0996510b09a7f0325c53d5f"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/templates/phantom.jpg",
+      "sha256": "7f37c7a755960418624d5c3f314056cfb53290f172f4a37942a7d6c93edd8738"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/templates/stellar.jpg",
+      "sha256": "8611255f5d770110e8723d907dd11a45b3cf4ec1b6bf111d497a4ab9fc6a3401"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/templates/story.jpg",
+      "sha256": "aaa7bd54b2fc7616a777cc2cad056f44ee2089c794522e35e83dae173c5ef80d"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/templates/twenty.jpg",
+      "sha256": "5c09af73cb0144215f4e047583b379427f396b2770ec7ad3e8809a14e7a0d9b7"
+    },
+    {
+      "path": "artifacts/website-builder-site/public/videos/beach-hero.mp4",
+      "sha256": "6363d9cb3dff9a0121034b6b4fffb1f6ddfbe10acba6ecac3ef10e584d42c6fe"
+    }
+  ]
+}
